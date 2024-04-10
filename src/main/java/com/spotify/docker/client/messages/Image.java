@@ -58,6 +58,7 @@ public abstract class Image {
   @JsonProperty("Size")
   public abstract Long size();
 
+  @Nullable
   @JsonProperty("VirtualSize")
   public abstract Long virtualSize();
 
